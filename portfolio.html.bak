@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+    <header id="home">
+        <nav>
+            <h1>Portfolio</h1>
+            <i class="fa-solid fa-bars menu"></i>
+            <ul>
+                <li><a href="#home" class="home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <main>
+                <p class="color">Frontend</p>
+                <span class="bold">Developer</span>
+                <p class="p2">A passionate Frontend Web Developer crafting modern, responsive, and user-friendly
+                    websites. I turn
+                    beautiful designs into functional, high-performance web experiences. </p>
+            </main>
+            <aside>
+                <img src="Images/design.png" alt="designer">
+            </aside>
+        </div>
+    </header>
+
+    <section id="about">
+        <p class="bold center">About Me</p>
+
+        <div class=" container">
+
+            <main>
+                <p class="bold">Hello, I am </p>
+                <h1>Amat Ullah Yasser</h1>
+                <span>Front-End Developer</span>
+                <p class="p2">I’m a Frontend Web Developer with a strong focus on creating pixel-perfect, responsive,
+                    and performance-optimized websites.
+                    I love transforming complex problems into elegant, intuitive interfaces using modern web
+                    technologies.
+                </p>
+                <button type="button">Download CV</button>
+            </main>
+
+            <aside class="aside-2">
+                <img src="Images/girl.jpg" alt="my picture">
+            </aside>
+        </div>
+        <table>
+            <tr>
+                <td colspan="3" class="head">
+                    <p>What I Do:</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="tail">
+                    <p>Develop responsive websites from scratch.</p>
+                </td>
+                <td class="tail">
+                    <p>Build reusable components using React/Vue.</p>
+                </td>
+                <td class="tail">
+                    <p>Work closely with designers to implement UI/UX.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="head">
+                    <p>Tech Stack:</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="tail">
+                    <p>Languages: HTML5, CSS3, JavaScript (ES6+)</p>
+                </td>
+                <td class="tail">
+                    <p>Frameworks: React.js, Next.js, Vue.js</p>
+                </td>
+                <td class="tail">
+                    <p>Styling: Tailwind CSS, Sass, Bootstrap</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Services">
+        <p class="bold center">How I can help</p>
+        <p class="p2 center">I specialize in creating responsive, user-friendly websites that deliver seamless
+            experiences
+            across all devices. Here’s what I can do for you:</p>
+        <main>
+            <div class="card">
+                <div class=" image image-1"></div>
+                <div class="dsc">
+                    <p class="p1">Service 1 – Responsive Web Design:</p>
+                    <p class="p2">I design and develop websites that look great and function perfectly across all
+                        devices and screen sizes.</p>
+                </div>
+                <button type="button" class="btn btn-outline-light">Details</button>
+
+            </div>
+            <div class="card">
+                <div class=" image image-2"></div>
+                <div class="dsc">
+                    <p class="p1">Service 2 – Web Performance Optimization:</p>
+                    <p class="p2">I improve site speed, SEO, and user experience by optimizing assets, reducing load
+                        times,
+                        and using best coding practices.</p>
+                </div>
+                <button type="button" class="btn btn-outline-light">Details</button>
+
+            </div>
+            <div class="card">
+                <div class=" image image-3"></div>
+                <div class="dsc">
+                    <p class="p1">Service 3 – UI/UX Implementation:</p>
+                    <p class="p2">I convert design mockups (Figma, Adobe XD, etc.) into interactive, pixel-perfect web
+                        interfaces.</p>
+                </div>
+                <button type="button" class="btn btn-outline-light">Details</button>
+            </div>
+            <div class="card">
+                <div class="image image-4"></div>
+                <div class="dsc">
+                    <p class="p1">Service 4 – Front-End Development:</p>
+                    <p class="p2">I build modern front-end applications using HTML, CSS, JavaScript, and frameworks like
+                        React or Vue.</p>
+                </div>
+                <button type="button" class="btn btn-outline-light">Details</button>
+
+            </div>
+        </main>
+    </section>
+    <section id="Projects">
+        <p class="bold center">Project Showcase</p>
+        <p class="p2 center">Welcome to my projects! Here you'll find a selection of work I've done as a
+            frontend
+            developer.
+            Each project reflects my passion for clean code, responsive design, and seamless user experiences.</p>
+        <div class="cardw">
+            <div class="wow">
+              
+            
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/pro_1_1.jpg" alt="Page-1" title="Page-1" id="wows0_0"/></li>
+		<li><img src="data0/images/pro_1_3.jpg" alt="Page-2" title="Page-2" id="wows0_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data0/images/pro_1_4.jpg" alt="css slideshow" title="Page-3" id="wows0_2"/></a></li>
+		<li><img src="data0/images/pro1_2.jpg" alt="Page-4" title="Page-4" id="wows0_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Page-1"><span><img src="data0/tooltips/pro_1_1.jpg" alt="Page-1"/>1</span></a>
+		<a href="#" title="Page-2"><span><img src="data0/tooltips/pro_1_3.jpg" alt="Page-2"/>2</span></a>
+		<a href="#" title="Page-3"><span><img src="data0/tooltips/pro_1_4.jpg" alt="Page-3"/>3</span></a>
+		<a href="#" title="Page-4"><span><img src="data0/tooltips/pro1_2.jpg" alt="Page-4"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery image carousel</a> by WOWSlider.com v9.0</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --></div>
+
+            <div class="wow">
+                <video src="Videos/video.mp4" controls></video>
+
+            </div>
+            <div class="wow">
+              
+            </div>
+        </div>
+
+    </section>
+    <section id="Contact">
+        <p class="bold center">Get In Touch</p>
+        <P class="p2 center">I’m always open to discussing new projects, creative ideas, or opportunities to be part of
+            your
+            vision. Feel free to reach out anytime—I’ll get back to you as soon as possible.</P>
+        <div class="container">
+            <div class="content">
+                <p> <i class="fa-solid fa-location-dot"></i> Address </p>
+                <span class="p2 center">London Eye, London, UK</span><br><br>
+                <p><i class="fa-solid fa-phone"></i> Phone Number </p>
+                <span class="p2">+123-456-7890</span><br><br>
+                <p><i class="fa-solid fa-envelope"></i> E-Mail</p>
+                <span class="p2">mailto@subx.com</span><br>
+                <hr>
+                <p>Follow Us:</p>
+                <i class="icon fa-brands fa-facebook"><a href="#"></a></i>
+                <i class="icon fa-brands fa-whatsapp"><a href="#"></a></i>
+                <i class="icon fa-brands fa-instagram"><a href="#"></a></i>
+                <i class="icon fa-brands fa-youtube"><a href="#"></a></i>
+            </div>
+            <div class="message">
+                <form action="#" method="get" autocomplete="off" onsubmit="return false">
+                    <p class="p">Send a Message</p>
+                    <input type="text" placeholder="Name">
+                    <br>
+                    <input type="email" placeholder="Email">
+                    <br>
+                    <input type="text" placeholder="Message">
+                    <p class="p2">By submitting, you agree to the processing of your personal data by Subx as described
+                        in the
+                        Privacy Statement.</p>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Portfolio of Eng.Amat Ullah Yasser | All Rights Reserved
+        </p>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

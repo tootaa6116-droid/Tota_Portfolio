@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Dancing+Script:wght@400..700&family=Gravitas+One&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+:root {
+    --main-color: #9540ca;
+    --secondary-color: #d683f6;
+    --end-color: #14091e;
+    --start-color: #f8eee4;
+    --add-color: #fd66c3;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0.1)), url("../Images/Background1.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 4% 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+}
+
+header nav h1 {
+    background: linear-gradient(30deg, var(--main-color), var(--start-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 1500;
+    font-size: 1.8rem;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+header nav ul li a {
+    color: var(--start-color);
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 3px transparent solid;
+    text-decoration: none;
+}
+
+header nav ul li .home {
+    color: var(--main-color);
+    border: none;
+}
+
+header nav ul li a:hover {
+    color: var(--main-color);
+    text-shadow: 1px 1px 4px var(--end-color);
+    border-bottom: 0.1rem var(--main-color) solid;
+}
+
+nav .menu {
+    display: none;
+}
+
+section {
+    height: auto;
+    width: 100%;
+    padding: 2% 8%;
+    overflow: hidden;
+}
+
+.bold {
+    background: linear-gradient(to top, var(--main-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+header .container main .color {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: -1%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+.container main {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    flex-basis: 50%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.p2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 0.6rem;
+    opacity: 0.7;
+}
+
+.container aside {
+    flex-basis: 50%;
+}
+
+.container aside img {
+    width: 100%;
+}
+
+.container aside img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#about {
+    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0.1)), url("../Images/Background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+#about main p {
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+#about .container button {
+    width: 40%;
+    background: linear-gradient(30deg, var(--main-color), var(--secondary-color));
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: var(--start-color);
+    font-weight: bold;
+    font-size: 0.7rem;
+    outline: none;
+    border: 3px transparent solid;
+    transition: .5s;
+}
+
+#about .container main button:hover {
+    background-image: none;
+    border: 3px var(--secondary-color) solid;
+    box-shadow: 0 0 10px var(--secondary-color);
+    cursor: pointer;
+}
+
+#about .aside-2 {
+    margin-right: -20%;
+}
+
+#about .aside-2 img {
+    width: 50%;
+    border-radius: 50%;
+    border-left: 3px var(--add-color) solid;
+    border-right: 3px var(--add-color) solid;
+    box-shadow: 0 0 20px var(--secondary-color)
+}
+
+#about .aside-2 img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+table tr .head {
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 5%;
+}
+
+table tr .tail {
+    padding: 1rem;
+    border-radius: 20px;
+    height: 80px;
+    width: 30%;
+    margin: 1rem;
+    background-color: rgba(217, 41, 179, 0.3);
+    display: inline-block;
+
+}
+
+table tr .tail:hover {
+    background-color: rgba(231, 19, 220, 0.5);
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--add-color);
+    text-shadow: 1px 1px 5px #000;
+}
+
+#Services {
+    height: 100vh;
+    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0.1)), url("../Images/Background2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Services main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 55%;
+    margin: auto;
+}
+
+#Services main .card {
+    background-color: rgba(217, 41, 179, 0.3);
+    margin: 0.5rem;
+    height: 70%;
+    width: 35%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0 0.9rem 1rem;
+}
+
+.card:hover {
+    background-color: rgba(231, 19, 220, 0.5);
+    transition: 0.5s;
+    transform: translate(0, -5px);
+    box-shadow: 0 0 10px var(--add-color);
+}
+
+.image {
+    height: 70%;
+    width: 100%;
+    border-radius: inherit;
+    margin: 0.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dsc .p1 {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.image-1 {
+    background-image: url("../Images/card1.jpg");
+}
+
+.image-2 {
+    background-image: url("../Images/card2.jpg");
+}
+
+.image-3 {
+    background-image: url("../Images/card3.jpg");
+}
+
+.image-4 {
+    background-image: url("../Images/card4.jpg");
+}
+
+#Projects {
+    height: 100vh;
+    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0.1)), url("../Images/Background3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bold2 {
+    font-weight: 700;
+    color: var(--start-color);
+    font-size: 1.5rem;
+}
+
+#Projects .cardw {
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    align-items: center;
+    transition: .5s;
+}
+
+#Projects .cardw .wow:hover {
+    transform: scale(1.1);
+}
+
+#Projects .cardw .wowv:hover {
+    transform: scale(1.1);
+}
+
+#Projects .cardw .wowv video {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+#Contact {
+    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0.1)), url("../Images/Background1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Contact .container {
+    width: 90%;
+    margin: 5% auto 0;
+    font-size: 1.5rem;
+}
+
+.icon {
+    margin-right: 2rem;
+}
+
+.icon:hover {
+    color: var(--secondary-color);
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+hr {
+    width: 30%;
+}
+
+.message {
+    display: inline-block;
+    width: 35%;
+    background-color: var(--main-color);
+    height: 40%;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.message form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.message form .p {
+    color: var(--end-color);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.message form .p2 {
+    color: var(--end-color);
+}
+
+.message form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(31, 3, 58, 0.5);
+    outline: none;
+    width: 100%;
+}
+
+.message form input::placeholder {
+    color: var(--end-color);
+    opacity: 0.5;
+    font-size: 1rem;
+}
+
+.message form button {
+    padding: 5px 20px;
+    width: 40%;
+    background-color: var(--start-color);
+    color: var(--end-color);
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.5s;
+    align-self: flex-end;
+}
+
+.message form button:hover {
+    background-color: var(--end-color);
+    color: var(--start-color);
+}
+
+footer {
+    background-color: var(--end-color);
+    height: auto;
+    padding: 1rem 0 0.2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.441);
+}
+
+@media (max-width:1290px) {
+    table {
+        width: 100%;
+    }
+
+    #about table tr .tail {
+        margin: 5px;
+    }
+
+    #about table tr .tail p {
+        font-size: 12px;
+    }
+
+    #Services main .card .dsc {
+        height: 40%;
+    }
+
+    #Services main .card .dsc .p1 {
+        font-size: 15px;
+    }
+
+    #Services main .card button {
+        font-size: 12px;
+    }
+
+    #Services main .card .dsc .p2 {
+        margin-top: -15px;
+        font-size: 10px;
+    }
+
+    .message form input::placeholder {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1050px) {
+    .message {
+        width: 60%;
+    }
+
+    .icon {
+        margin-right: 0.5rem;
+    }
+
+    #Contact .container {
+        width: 100%;
+        margin: 10% auto 0;
+        font-size: 1rem;
+    }
+
+    .message form .p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    ul {
+        display: none;
+    }
+
+    nav .menu {
+        display: inline-block;
+    }
+
+    header nav h1 {
+        font-size: 1.3rem;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header .container main .color,
+    header .container main .bold,
+    header .container main .p2 {
+        align-self: center;
+    }
+
+    header .container .p2 {
+        text-align: center;
+    }
+
+    .bold {
+        font-size: 30px;
+    }
+
+    .p2 {
+        font-size: 8px;
+    }
+
+    #about .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #about .container main button {
+        width: 80%;
+    }
+
+    #about .container main h1 {
+        font-size: 18px;
+    }
+
+    #about table tr .tail p {
+        font-size: 10px;
+    }
+
+    #Services main .card .dsc .p1 {
+        font-size: 12px;
+    }
+
+    #Services main .card .dsc .p2 {
+        display: none;
+    }
+
+    #Services main .card button {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .wow {
+        display: none;
+    }
+
+    .wowv video {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .message {
+        width: 50%;
+    }
+
+    .message form button {
+        width: 70%;
+        font-size: 10px;
+    }
+}
