@@ -539,7 +539,7 @@ footer {
     }
 
     #about .container main button {
-        width: 80%;
+        width: 90%;
     }
 
     #about .container main h1 {
@@ -547,7 +547,7 @@ footer {
     }
 
     #about table tr .tail p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     #Services main .card .dsc .p1 {
@@ -559,8 +559,8 @@ footer {
     }
 
     #Services main .card button {
-        font-size: 12px;
-        width: 70%;
+        font-size: 10px;
+        width: 80%;
     }
 
     .wow {
@@ -569,7 +569,7 @@ footer {
 
     .wowv video {
         width: 100%;
-        max-width: 350px;
+        max-width: 300px;
         height: auto;
         margin: 0 auto;
         display: block;
@@ -582,8 +582,9 @@ footer {
     }
 
     .message form button {
-        width: 70%;
+        width: 75%;
         font-size: 10px;
     }
 
 }
+
